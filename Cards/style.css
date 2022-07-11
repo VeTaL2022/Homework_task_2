@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 50vw;
+    background-color: #55839d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > div{
+    background-color: #5078cc;
+    height: 340px;
+    width: 300px;
+    margin: 15px;
+
+    border: 1px solid #4d4545;
+}
+.container > div > h3{
+    font-family: "Ink Free", sans-serif;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.text{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.button-Youtube{
+    height: 20px;
+    width: 160px;
+    background-color: #FF0000;
+    border: 2px solid #4d4545;
+
+    text-align: center;
+    margin: 5px 5px 5px 58px;
+    padding: 10px;
+}
+.button-Spotify{
+    height: 20px;
+    width: 160px;
+    background-color: #1ED760;
+    border: 2px solid #4d4545;
+
+    text-align: center;
+    margin: 5px 5px 5px 58px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #f1e7e7;
+    font-size: 17px;
+}
+a:hover{
+    text-decoration: underline;
+}
